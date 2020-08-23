@@ -1,0 +1,77 @@
+
+// CM energy
+//Beams:frameType = 2
+Beams:idA = 2212
+//Beams:eA = 275.0
+Beams:idB = 11
+//Beams:eB = 10.0
+Beams:eCM = 105.0 //!5505.0!505.0!105.0
+
+
+// select partonic process
+WeakBosonExchange:ff2ff(t:gmZ) = on
+
+SpaceShower:dipoleRecoil = on
+SpaceShower:pTmaxMatch = 2
+
+PDF:lepton=off
+TimeShower:QEDshowerByL=off
+
+//PDF:pSet = LHAPDF6:CT10nlo
+
+
+
+
+// CM energy
+//Beams:eCM = 13000.
+//Beams:eCM = 2760.
+
+//Beams:idA = 1000822080
+//Beams:idB = 1000822080
+
+//HeavyIon:mode = 1
+
+// select QCD process
+//HardQCD:all = on
+
+//HardQCD:qg2qg = on
+//HardQCD:gg2gg = on
+//HardQCD:qqbar2gg = on
+//HardQCD:gg2qqbar = on
+//HardQCD:qq2qq = on
+//HardQCD:qqbar2qqbarNew = on
+//HardQCD:gg2ccbar = on
+//HardQCD:qqbar2ccbar = on
+//HardQCD:gg2bbbar = on
+//HardQCD:qqbar2bbbar = on
+
+//WeakBosonAndParton:qqbar2gmZg = on 
+
+//WeakBosonAndParton:qg2gmZq = on
+
+
+//WeakBosonAndParton:qg2Wq = on
+//WeakBosonAndParton:qqbar2Wg = on
+//PDFinProcess:nQuarkIn = 2
+
+
+
+
+
+//promptPhoton:qg2qgamma = on
+
+
+//promptPhoton:qqbar2ggamma = on 
+
+
+// turn off hadronization
+//HadronLevel:all = off
+//HadronLevel:Hadronize = on
+
+// other settings
+Next:numberShowInfo = 1
+Next:numberShowProcess = 1
+Next:numberShowEvent = 1
+Next:numberCount = 0
+//Main:timesAllowErrors=10000
+ 
